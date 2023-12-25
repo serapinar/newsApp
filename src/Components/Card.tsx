@@ -35,6 +35,7 @@ const Card = ({item, navigation, index}) => {
                     <Text className="text-black text-xs font-Medium">Read More</Text>
                     <ArrowRightIcon color="#000" size={18} />
                 </TouchableOpacity>
+
             </View>
 
             <View className="absolute top-4 right-4 bg-redprimary px-4 rounded-md">
