@@ -81,7 +81,7 @@ const HomeScreen = ({navigation}) => {
         <>
             {Laoding ? (
                 <View className="flex-1 justify-center items-center">
-                    <ActivityIndicator color={'#db393c'} size={36} />
+                    <ActivityIndicator color={'#dc2e31'} size={36} />
                 </View>
             ) : (
                 <View className="flex-1">
