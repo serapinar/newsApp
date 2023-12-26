@@ -9,7 +9,7 @@ const Header = ({navigation}) => {
                 Country Live
             </Text>
             <TouchableOpacity onPress={() => navigation.navigate('Search')}>
-                <MagnifyingGlassIcon color="#000" size={20} />
+                <MagnifyingGlassIcon color="#000" size={20}/>
             </TouchableOpacity>
         </View>
     );
